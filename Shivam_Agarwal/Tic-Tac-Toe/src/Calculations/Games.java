@@ -14,57 +14,8 @@ public class Games extends javax.swing.JFrame {
     /**
      * Creates new form Calculation
      */
-    int change=0,
-
-    /**
-     * Creates new form Games
-     */
-    b1=0,
-
-    /**
-     * Creates new form Games
-     */
-    b2=0,
-
-    /**
-     * Creates new form Games
-     */
-    b3=0,
-
-    /**
-     * Creates new form Games
-     */
-    b4=0,
-
-    /**
-     * Creates new form Games
-     */
-    b5=0,
-
-    /**
-     * Creates new form Games
-     */
-    b6=0,
-
-    /**
-     * Creates new form Games
-     */
-    b7=0,
-
-    /**
-     * Creates new form Games
-     */
-    b8=0,
-
-    /**
-     * Creates new form Games
-     */
-    b9=0,
-
-    /**
-     * Creates new form Games
-     */
-    won=0;
+    int change=0,b1=0,b2=0,b3=0,b4=0,b5=0,b6=0,b7=0,b8=0,b9=0, won=0;
+   
     
     char matrix[][]=new char[3][3];
     
@@ -249,10 +200,11 @@ public class Games extends javax.swing.JFrame {
     }//GEN-LAST:event_txtDisplayActionPerformed
 
     private void btn7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn7ActionPerformed
-        change++;
+        
         b7++;
         if(b7==1&&won==0)
         {
+          change++;
         if(change%2!=0)
         {
           btn7.setText("X");
@@ -274,17 +226,19 @@ public class Games extends javax.swing.JFrame {
           }
         }
         }
-        if(b1==1&&b2==1&&b3==1&&b4==1&&b5==1&&b6==1&&b7==1&&b8==1&&b9==1&&won==0)
+        if(b1>=1&&b2>=1&&b3>=1&&b4>=1&&b5>=1&&b6>=1&&b7>=1&&b8>=1&&b9>=1&&won>=0)
             txtDisplay.setText("Draw");
     }//GEN-LAST:event_btn7ActionPerformed
 
     private void btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn1ActionPerformed
-        change++;
+        
         b1++;
         if(b1==1&&won==0)
         {
+            change++;
         if(change%2!=0)
         {
+           
           btn1.setText("X");
           matrix[0][0]='X';
           if(matrix[0][1]=='X'&&matrix[0][2]=='X'||matrix[1][0]=='X'&&matrix[2][0]=='X'||matrix[1][1]=='X'&&matrix[2][2]=='X')
@@ -304,15 +258,16 @@ public class Games extends javax.swing.JFrame {
           }
         }
         }
-        if(b1==1&&b2==1&&b3==1&&b4==1&&b5==1&&b6==1&&b7==1&&b8==1&&b9==1&&won==0)
+        if(b1>=1&&b2>=1&&b3>=1&&b4>=1&&b5>=1&&b6>=1&&b7>=1&&b8>=1&&b9>=1&&won>=0)
             txtDisplay.setText("Draw");
     }//GEN-LAST:event_btn1ActionPerformed
 
     private void btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn2ActionPerformed
-        change++;
+        
         b2++;
         if(b2==1&&won==0)
         {
+         change++;    
         if(change%2!=0)
         {
           btn2.setText("X");
@@ -334,15 +289,16 @@ public class Games extends javax.swing.JFrame {
           }
         }
         }
-        if(b1==1&&b2==1&&b3==1&&b4==1&&b5==1&&b6==1&&b7==1&&b8==1&&b9==1&&won==0)
+       if(b1>=1&&b2>=1&&b3>=1&&b4>=1&&b5>=1&&b6>=1&&b7>=1&&b8>=1&&b9>=1&&won>=0)
             txtDisplay.setText("Draw");
     }//GEN-LAST:event_btn2ActionPerformed
 
     private void btn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn3ActionPerformed
-        change++;
+        
         b3++;
         if(b3==1&&won==0)
         {
+            change++;
         if(change%2!=0)
         {
           btn3.setText("X");
@@ -364,15 +320,16 @@ public class Games extends javax.swing.JFrame {
           }
         }
         }
-        if(b1==1&&b2==1&&b3==1&&b4==1&&b5==1&&b6==1&&b7==1&&b8==1&&b9==1&&won==0)
+        if(b1>=1&&b2>=1&&b3>=1&&b4>=1&&b5>=1&&b6>=1&&b7>=1&&b8>=1&&b9>=1&&won>=0)
             txtDisplay.setText("Draw");
     }//GEN-LAST:event_btn3ActionPerformed
 
     private void btn4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn4ActionPerformed
-        change++;
+        
         b4++;
         if(b4==1&&won==0)
         {
+            change++;
         if(change%2!=0)
         {
           btn4.setText("X");
@@ -394,15 +351,16 @@ public class Games extends javax.swing.JFrame {
           }
         }
         }
-        if(b1==1&&b2==1&&b3==1&&b4==1&&b5==1&&b6==1&&b7==1&&b8==1&&b9==1&&won==0)
+        if(b1>=1&&b2>=1&&b3>=1&&b4>=1&&b5>=1&&b6>=1&&b7>=1&&b8>=1&&b9>=1&&won>=0)
             txtDisplay.setText("Draw");
     }//GEN-LAST:event_btn4ActionPerformed
 
     private void btn5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn5ActionPerformed
-        change++;
+       
         b5++;
         if(b5==1&&won==0)
         {
+            change++;
         if(change%2!=0)
         {
           btn5.setText("X");
@@ -424,15 +382,16 @@ public class Games extends javax.swing.JFrame {
           }
         }
         }
-        if(b1==1&&b2==1&&b3==1&&b4==1&&b5==1&&b6==1&&b7==1&&b8==1&&b9==1&&won==0)
+        if(b1>=1&&b2>=1&&b3>=1&&b4>=1&&b5>=1&&b6>=1&&b7>=1&&b8>=1&&b9>=1&&won>=0)
             txtDisplay.setText("Draw");
     }//GEN-LAST:event_btn5ActionPerformed
 
     private void btn6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn6ActionPerformed
-        change++;
+        
         b6++;
         if(b6==1&&won==0)
         {
+            change++;
         if(change%2!=0)
         {
           btn6.setText("X");
@@ -455,15 +414,16 @@ public class Games extends javax.swing.JFrame {
           }
         }
         }
-        if(b1==1&&b2==1&&b3==1&&b4==1&&b5==1&&b6==1&&b7==1&&b8==1&&b9==1&&won==0)
+        if(b1>=1&&b2>=1&&b3>=1&&b4>=1&&b5>=1&&b6>=1&&b7>=1&&b8>=1&&b9>=1&&won>=0)
             txtDisplay.setText("Draw");
     }//GEN-LAST:event_btn6ActionPerformed
 
     private void btn8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn8ActionPerformed
-        change++;
+        
         b8++;
         if(b8==1&&won==0)
         {
+            change++;
         if(change%2!=0)
         {
           btn8.setText("X");
@@ -486,15 +446,17 @@ public class Games extends javax.swing.JFrame {
           }
         }
        }
-        if(b1==1&&b2==1&&b3==1&&b4==1&&b5==1&&b6==1&&b7==1&&b8==1&&b9==1&&won==0)
+        
+        if(b1>=1&&b2>=1&&b3>=1&&b4>=1&&b5>=1&&b6>=1&&b7>=1&&b8>=1&&b9>=1&&won>=0)
             txtDisplay.setText("Draw");
     }//GEN-LAST:event_btn8ActionPerformed
 
     private void btn9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn9ActionPerformed
-        change++;
+        
         b9++;
         if(b9==1&&won==0)
         {
+            change++;
         if(change%2!=0)
         {
           btn9.setText("X");
@@ -516,7 +478,7 @@ public class Games extends javax.swing.JFrame {
           }
         }
         }
-        if(b1==1&&b2==1&&b3==1&&b4==1&&b5==1&&b6==1&&b7==1&&b8==1&&b9==1&&won==0)
+        if(b1>=1&&b2>=1&&b3>=1&&b4>=1&&b5>=1&&b6>=1&&b7>=1&&b8>=1&&b9>=1&&won>=0)
             txtDisplay.setText("Draw");
     }//GEN-LAST:event_btn9ActionPerformed
 
